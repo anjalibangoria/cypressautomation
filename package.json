@@ -1,8 +1,9 @@
 {
     "name": "cypressdemo",
     "version": "1.0.0",
-    "description": "",
+    "description": "UI & API Automation Testing using cypress",
     "main": "index.js",
+    "contributor": "Anjali Dalasaniya",
     "scripts": {
         "cypress:open": "cypress open",
         "mergeReport": "mochawesome-merge cypress/reports/APIReports/mocha/*.json>cypress/reports/APIReports/ExecutionReport.json",
