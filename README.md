@@ -11,8 +11,8 @@ Use below command to run UI Test which is under cypress/test/apitest.
 
 There are different folder for different purpose here.
 1. **config**      :- This will be used to set configuration for UI & API test individually. apiconfig.json
-	 										-> apiconfig.json - all required configurations for api automation are added under this file.
-											-> uiconfig.json  - all required configurations for ui automation are added under this file.
+	 -> apiconfig.json - all required configurations for api automation are added under this file.
+	 -> uiconfig.json  - all required configurations for ui automation are added under this file.
 2. **fixtures**    :- This will be used to add required test data files.
 3. **Reports**     :- After execution of UI or API test, report will get generate under Reports -> APIReports or Report -> UIReports respectively.
 											-> Under APIReports There will be one file with name ExecutionReport.html to see result in html format. It generates html from result json data.
