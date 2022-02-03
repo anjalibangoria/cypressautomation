@@ -1,0 +1,507 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;verify-signup",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify Signup",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 3815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User click on \"My Account\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on \"Register\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 2046000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should see \"Register Account\" page title",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User fill details for RegisterAccount as \"NewUserWithSamePassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 4986000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should see error message \"You must agree to the Privacy Policy\"",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User Click on privacy policy checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 3182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User should see success message \"Your Account Has Been Created\" on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User click on \"My Account\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should see \"Logout\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User click on \"Logout\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 2619000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;verify-login-with-invalid-email-and-password",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verify Login with invalid email and password",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1888000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User click on \"My Account\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User click on \"Login\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 2102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User login as \"ValidUserAndInvalidPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 2287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 2233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User should see error message \"No match for E-Mail Address and/or Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;verify-login-with-invalid-email-and-password",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify Login with invalid email and password",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 2688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User click on \"My Account\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 341000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User click on \"Login\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 1966000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User login as \"InvalidUserAndValidPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 1654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 1884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User should see error message \"No match for E-Mail Address and/or Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;verify-login-with-invalid-email-and-password",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Verify Login with invalid email and password",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 4233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User click on \"My Account\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User click on \"Login\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 1989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User login as \"InvalidUserAndInvalidPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 2026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 2310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User should see error message \"No match for E-Mail Address and/or Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;verify-login-with-valid-email-and-password",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Verify Login with valid email and password",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 40
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 2730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User click on \"My Account\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "User click on \"Login\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 2232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "User login as \"ValidUser\"",
+            "result": {
+              "status": "passed",
+              "duration": 1678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 3935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "User should see Product Bar",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "User click on \"My Account\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 1008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "User should see \"Logout\" menu option from top bar",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "User should see Product Bar",
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "User click on home button from navigation breadcrumb",
+            "result": {
+              "status": "passed",
+              "duration": 2366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "User should see Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

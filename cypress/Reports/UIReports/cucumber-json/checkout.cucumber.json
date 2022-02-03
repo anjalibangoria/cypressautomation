@@ -1,0 +1,197 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Checkout",
+    "line": 1,
+    "id": "checkout",
+    "tags": [],
+    "uri": "checkout.feature",
+    "elements": [
+      {
+        "id": "checkout;verify-checkout-as-guest-user",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify checkout as guest user",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 3608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter \"HP LP\" in searchbox and click on search icon",
+            "result": {
+              "status": "passed",
+              "duration": 2222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should see products with name contains \"HP LP\"",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User select \"1\" product",
+            "result": {
+              "status": "passed",
+              "duration": 4301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click on add to cart button of \"1\" product from product details page",
+            "result": {
+              "status": "passed",
+              "duration": 488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User click on \"Shopping Cart\" menu from topbar",
+            "result": {
+              "status": "passed",
+              "duration": 3460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should see cart amount of \"HP LP\" product and total amount are same",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User click on Checkout Button from cart page",
+            "result": {
+              "status": "passed",
+              "duration": 2897000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User click on Guest Checkout button",
+            "result": {
+              "status": "passed",
+              "duration": 2580000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User enter first name as \"testfirstname\" last name as \"testlastname\" email as \"anjalidemo@gmail.com\" telephone as \"9989898988\" address as \"pune\" city as \"pune\" post code as \"410022\" country as \"India\" region as \"Maharashtra\"",
+            "result": {
+              "status": "passed",
+              "duration": 14663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User select \"Flat Shipping Rate\" as Delivery Method",
+            "result": {
+              "status": "passed",
+              "duration": 2491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User select \"Cash On Delivery\" as Payment Method",
+            "result": {
+              "status": "passed",
+              "duration": 2304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User select Terms & condition checkbox under Payment Method",
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User click on Continue button of Payment Method",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User see total order amount under confirm order",
+            "result": {
+              "status": "passed",
+              "duration": 2210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User click on Confirm Order button under Confirm Order",
+            "result": {
+              "status": "passed",
+              "duration": 793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User should see success message \"Your order has been placed\" on Checkout Page",
+            "result": {
+              "status": "passed",
+              "duration": 2147000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

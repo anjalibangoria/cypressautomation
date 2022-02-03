@@ -1,0 +1,26 @@
+{
+    "baseUrl": "https://xyz.api.here.com",
+    "token":"AKXDvgGhQ3Ch3U_dIwaQiAA",
+    "extends": "../../cypress.json",
+    "watchForFileChanges": false,
+    "defaultCommandTimeout": 5000,
+    "maxWaitTimeout": 5000,
+    "integrationFolder": "cypress/test/apitest",
+    "testFiles": [
+        "**/*.js"
+    ],
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/Reports/APIReports/mocha",
+        "reportFilename": "report",
+        "overwrite": false,
+        "charts": true,
+        "html": false,
+        "json": true,
+        "autoOpen":true
+    },
+    "screenshotsFolder": "cypress/Reports/APIReports/mocha/screenshots",
+    "video": true,
+    "videosFolder":"cypress/Videos/APITestideos/"
+
+}

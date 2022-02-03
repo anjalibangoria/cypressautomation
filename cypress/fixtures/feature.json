@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.363449,
+                    48.210033
+                ]
+            },
+            "properties": {
+                "name": "Greentube internet Solution",
+                "@ns:com:here:xyz": {
+                    "createdAt": 1517504700726,
+                    "updatedAt": 1517504700726,
+                    "tags": [
+                        "IT",
+                        "Company",
+                        "Software",
+                        "Solution"
+                    ]
+                },
+                "description": "Location of Greentube internet Solution"
+            }
+        }
+    ]
+}

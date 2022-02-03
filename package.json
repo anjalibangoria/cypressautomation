@@ -1,0 +1,43 @@
+{
+    "name": "cypressdemo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "cypress:open": "cypress open",
+        "mergeReport": "mochawesome-merge cypress/reports/APIReports/mocha/*.json>cypress/reports/APIReports/ExecutionReport.json",
+        "generateReport": "marge cypress/reports/APIReports/ExecutionReport.json --reportDir ./ --inline -t \"API Automation Report\" -p APIAutomationRun --charts true --code true --autoOpen true ",
+        "api-test": "cypress run --config-file cypress/config/apiconfig.json & npm run mergeReport & npm run generateReport",
+        "ui-test": "cypress run --config-file cypress/config/uiconfig.json --browser chrome --headed & node cypress/support/cucumber-html-report.js"
+    },
+    "author": "Anjali Dalasaniya",
+    "license": "ISC",
+    "dependencies": {
+        "cucumber": "^7.0.0-rc.0",
+        "cypress": "^9.3.1",
+        "cypress-cucumber-preprocessor": "^4.3.1",
+        "nvm": "^0.0.4"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": false,
+        "step_definitions": "cypress/test/uitest/step_definitions",
+        "nonGlobalStepBaseDir": "cypress/test/uitest/step_definitions",
+        "cucumberJson": {
+            "generate": true,
+            "outputFolder": "cypress/reports/UIReports/cucumber-json",
+            "filePrefix": "",
+            "fileSuffix": ".cucumber"
+
+        }
+    },
+    "devDependencies": {
+        "cypress-multi-reporters": "^1.5.0",
+        "cypress-xpath": "^1.6.2",
+        "deepmerge": "^4.2.2",
+        "mochawesome": "^7.0.1",
+        "mochawesome-merge": "^4.2.1",
+        "mochawesome-report-generator": "^6.0.1",
+        "multiple-cucumber-html-reporter": "^1.18.3",
+        "random-email": "^1.0.3"
+    }
+}

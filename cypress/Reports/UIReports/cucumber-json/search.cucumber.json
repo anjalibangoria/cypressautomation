@@ -1,0 +1,412 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "search;verify-search-from-searchbar",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify search from searchbar",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 3106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User enter \"Apple\" in searchbox and click on search icon",
+            "result": {
+              "status": "passed",
+              "duration": 2445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should see products with name contains \"Apple\"",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;verify-search-using-criteria-search",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify search using criteria search",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 3286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User enter \"Samsung\" in searchbox and click on search icon",
+            "result": {
+              "status": "passed",
+              "duration": 2442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User change search category to \"Tablets\"",
+            "result": {
+              "status": "passed",
+              "duration": 2267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User click on criteria search button",
+            "result": {
+              "status": "passed",
+              "duration": 1790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should see products with name contains \"Samsung\"",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User enter \"Logitech\" in criteria search input box",
+            "result": {
+              "status": "passed",
+              "duration": 724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User change search category to \"Monitors\"",
+            "result": {
+              "status": "passed",
+              "duration": 2322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User click on criteria search button",
+            "result": {
+              "status": "passed",
+              "duration": 1651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User should see \"There is no product that matches the search criteria\" as product result message",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User enter \"Samsung\" in criteria search input box",
+            "result": {
+              "status": "passed",
+              "duration": 723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User click on criteria search button",
+            "result": {
+              "status": "passed",
+              "duration": 1674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User should see products with name contains \"Samsung\"",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "User should see \"monitor\" in caption details",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;verify-search-product-with-product-description-checkbox",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify search product with product description checkbox",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "User enter \"Camera\" in searchbox and click on search icon",
+            "result": {
+              "status": "passed",
+              "duration": 2278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "User click select search in product descriptions checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "User click on criteria search button",
+            "result": {
+              "status": "passed",
+              "duration": 2183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "User should see products",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "User select \"1\" product",
+            "result": {
+              "status": "passed",
+              "duration": 4523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "User should see \"Camera\" in description",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "User click on home button from navigation breadcrumb",
+            "result": {
+              "status": "passed",
+              "duration": 2175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "User should see Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;verify-search-using-product-navigation-bar",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify search using product navigation bar",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 42
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 2133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "User click on \"Monitors\" option from \"Components\" menu",
+            "result": {
+              "status": "passed",
+              "duration": 1869000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "User should see \"Display|Monitor\" in caption details",
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "User should see left side panel highlighted with \"Monitors\"",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "User should see total listed products count and product count from page number section are same",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "User should see navigation hierarchy \"Home, Components, Monitors\" in breadcrumb",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "User click on home button from navigation breadcrumb",
+            "result": {
+              "status": "passed",
+              "duration": 2185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "User should see Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

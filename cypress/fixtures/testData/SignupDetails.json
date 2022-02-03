@@ -1,0 +1,11 @@
+[
+    {
+        "UserType": "NewUserWithSamePassword",
+        "firstName": "testFirstname",
+        "lastName": "testLastname",
+        "emailDomain": "mailinator.com",
+        "telephone": "9837272322",
+        "password": "hello",
+        "passwordConfirm": "hello"
+    }
+]
