@@ -1,6 +1,6 @@
 # cypress automation
 
-Cypress is a next generation api and front end testing tool built for the modern web. This is a sample project which you can use to start your E2E testing with Cypress.
+Cypress is a next generation api and front end testing tool built for the modern web. This is a sample project which you can use to start your E2E testing with Cypress. 
 remotes/origin_github/main
 
 Installation
@@ -20,6 +20,9 @@ To run UI Test which is under cypress/test/uitest.
 	
 	For Headless Mode, use below command.
 	npm run ui-test:headless
+
+	Run using tags, use below command.
+	npm run ui-test:withTags
 
 To run API Test which is under cypress/test/apitest.		
 		
@@ -42,5 +45,3 @@ There are different folder for different purpose here.
 7. **Videos**      :- All feature execution vidoes gets generated here if Vidoes flag set to true in config/apiconfig.json or config/uiconfig.json. 
 
 
-For now, runUsingTags doesnt work. There is open issue with cucumber-preproccessor.
-https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/issues/493
