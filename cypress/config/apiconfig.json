@@ -16,8 +16,7 @@
         "overwrite": false,
         "charts": true,
         "html": false,
-        "json": true,
-        "autoOpen":true
+        "json": true
     },
     "screenshotsFolder": "cypress/Reports/APIReports/mocha/screenshots",
     "video": true,

@@ -6,10 +6,14 @@
     "contributor": "Anjali Dalasaniya",
     "scripts": {
         "cypress:open": "cypress open",
+        "deleteAPIReports": "del-cli --force cypress/Reports/APIReports",
+        "deleteUIReports": "del-cli --force cypress/Reports/UIReports",
         "mergeReport": "mochawesome-merge cypress/reports/APIReports/mocha/*.json>cypress/reports/APIReports/ExecutionReport.json",
-        "generateReport": "marge cypress/reports/APIReports/ExecutionReport.json --reportDir ./ --inline -t \"API Automation Report\" -p APIAutomationRun --charts true --code true --autoOpen true ",
-        "api-test": "cypress run --config-file cypress/config/apiconfig.json & npm run mergeReport & npm run generateReport",
-        "ui-test": "cypress run --config-file cypress/config/uiconfig.json --browser chrome --headed & node cypress/support/cucumber-html-report.js"
+        "generateReport": "marge cypress/reports/APIReports/ExecutionReport.json --reportDir ./ --inline -t \"API Automation Report\" -p APIAutomationRun --charts true --code true --autoOpen true",
+        "api-test": "npm run deleteAPIReports & cypress run --config-file cypress/config/apiconfig.json & npm run mergeReport & npm run generateReport",
+        "ui-test": "npm run deleteUIReports & cypress run --config-file cypress/config/uiconfig.json --browser chrome --headed & node cypress/support/cucumber-html-report.js",
+        "ui-test:headless": "npm run deleteUIReports & cypress run --config-file cypress/config/uiconfig.json --browser chrome --headless & node cypress/support/cucumber-html-report.js",
+        "runUsingTags": "cypress-tags run -e TAGS='not @foo and (@bar or @zap)'"
     },
     "author": "Anjali Dalasaniya",
     "license": "ISC",
@@ -28,13 +32,12 @@
             "outputFolder": "cypress/reports/UIReports/cucumber-json",
             "filePrefix": "",
             "fileSuffix": ".cucumber"
-
         }
     },
     "devDependencies": {
-        "cypress-multi-reporters": "^1.5.0",
         "cypress-xpath": "^1.6.2",
         "deepmerge": "^4.2.2",
+        "del-cli": "^4.0.1",
         "mochawesome": "^7.0.1",
         "mochawesome-merge": "^4.2.1",
         "mochawesome-report-generator": "^6.0.1",

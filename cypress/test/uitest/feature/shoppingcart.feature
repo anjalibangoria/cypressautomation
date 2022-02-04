@@ -33,6 +33,9 @@ Feature: shopping cart
         When User edit quantity of "iMac" to "2"
         Then User should see success message "You have modified your shopping cart" on cart page
         Then User should see "iMac" with "2" quantity on cart page
+        When User edit quantity of "iMac" to "two"
+        Then User should see "iMac" with "2" quantity on cart page
+
 
     ####This scenario has covered remove from cart and verify empty card feature as guest user ###
     @regression

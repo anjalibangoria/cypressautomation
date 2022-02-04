@@ -11,9 +11,7 @@ Then('User should see {string} items in cart', (itemCount) => {
 Then('User should see {string} with {string} quantity on cart page', (productName, quantity) => {
     cartPage.getQuantityOfProduct(productName).invoke('attr', 'value')
         .then(($val) => {
-            const style1 = $val
-            expect(quantity).to.equal($val);
-            $val.should('eq',quantity);
+            expect(quantity).to.equal($val).withErrorMessage("Product Quantity doesnt match or looks like cart is empty");
         })
 })
 

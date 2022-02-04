@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 1,
-    "start": "2022-02-03T17:07:49.166Z",
-    "end": "2022-02-03T17:07:56.964Z",
-    "duration": 7798,
+    "start": "2022-02-04T06:39:39.663Z",
+    "end": "2022-02-04T06:39:47.008Z",
+    "duration": 7345,
     "testsRegistered": 5,
     "passPercent": 80,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "17c2371b-d2a3-4b33-beb6-861c79e8d081",
+      "uuid": "155047a6-7712-4673-9b70-8b6031a567ce",
       "title": "",
       "fullFile": "cypress/test/apitest/SpacesAPI.js",
       "file": "cypress/test/apitest/SpacesAPI.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2aa8c6ef-a1d4-457e-acda-7deeb0bd498f",
+          "uuid": "f63a7fe9-f8c5-4db7-bfcd-e842e7de420d",
           "title": "Location Spaces API Test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Create Space Without Auth",
               "fullTitle": "Location Spaces API Test Create Space Without Auth",
               "timedOut": null,
-              "duration": 1414,
+              "duration": 1136,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: expected 400 to equal 401\n    at Context.eval (https://xyz.api.here.com/__cypress/tests?p=cypress\\test\\apitest\\SpacesAPI.js:18:39)",
                 "diff": "- 400\n+ 401\n"
               },
-              "uuid": "0ded6255-6023-4f94-afff-2c077d5d0ea8",
-              "parentUUID": "2aa8c6ef-a1d4-457e-acda-7deeb0bd498f",
+              "uuid": "15124960-7269-43bf-aee5-4f3576fa97dd",
+              "parentUUID": "f63a7fe9-f8c5-4db7-bfcd-e842e7de420d",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "Create Space with Invalid Auth",
               "fullTitle": "Location Spaces API Test Create Space with Invalid Auth",
               "timedOut": null,
-              "duration": 896,
+              "duration": 799,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -69,8 +69,8 @@
               "context": null,
               "code": "var title = \"Anjali First Space\";\nvar description = \"Anjali First Space as test data\";\ncy.request({\n  method: 'POST',\n  url: '/hub/spaces',\n  auth: {\n    'bearer': 'WrongToken'\n  },\n  body: {\n    \"title\": title,\n    \"description\": description\n  },\n  failOnStatusCode: false\n}).then(function (spaceResponse) {\n  expect(spaceResponse.status).to.eq(401);\n  expect(spaceResponse.body).to.have.property('errorMessage', \"Unauthorized\");\n});",
               "err": {},
-              "uuid": "97cd6b09-b0eb-453f-bb44-5e1c72785fb6",
-              "parentUUID": "2aa8c6ef-a1d4-457e-acda-7deeb0bd498f",
+              "uuid": "4eccd396-751b-4b0e-84ed-72d10c7eb8ae",
+              "parentUUID": "f63a7fe9-f8c5-4db7-bfcd-e842e7de420d",
               "isHook": false,
               "skipped": false
             },
@@ -78,7 +78,7 @@
               "title": "Create Space with valid inputs",
               "fullTitle": "Location Spaces API Test Create Space with valid inputs",
               "timedOut": null,
-              "duration": 3634,
+              "duration": 3514,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -87,8 +87,8 @@
               "context": null,
               "code": "var title = \"Anjali First Space\";\nvar description = \"Anjali First Space as test data\";\ncy.request({\n  method: 'POST',\n  url: '/hub/spaces',\n  auth: {\n    'bearer': Cypress.config('token')\n  },\n  body: {\n    \"title\": title,\n    \"description\": description\n  }\n}).then(function (spaceResponse) {\n  createdSpaceId = spaceResponse.body.id;\n  expect(spaceResponse.status).to.eq(200);\n  expect(spaceResponse.body).property('id').to.not.be.oneOf([null, \"\"]);\n  expect(spaceResponse.body).to.have.property('title', title);\n  expect(spaceResponse.body).to.have.property('description', description);\n});",
               "err": {},
-              "uuid": "b97a0b46-cc79-40c3-af23-1a824cd5e130",
-              "parentUUID": "2aa8c6ef-a1d4-457e-acda-7deeb0bd498f",
+              "uuid": "13587ffd-fece-4da4-b7e5-06f9229dea03",
+              "parentUUID": "f63a7fe9-f8c5-4db7-bfcd-e842e7de420d",
               "isHook": false,
               "skipped": false
             },
@@ -96,7 +96,7 @@
               "title": "Modify Space",
               "fullTitle": "Location Spaces API Test Modify Space",
               "timedOut": null,
-              "duration": 1072,
+              "duration": 762,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -105,8 +105,8 @@
               "context": null,
               "code": "var title = \"Anjali Modified First Space\";\nvar description = \"Anjali First Space as test data\";\ncy.request({\n  method: 'PATCH',\n  url: '/hub/spaces/' + createdSpaceId,\n  auth: {\n    'bearer': Cypress.config('token')\n  },\n  body: {\n    \"title\": title\n  }\n}).then(function (spaceResponse) {\n  expect(spaceResponse.status).to.eq(200);\n  expect(spaceResponse.body).property('id').to.eq(createdSpaceId);\n  expect(spaceResponse.body).to.have.property('title', title);\n  expect(spaceResponse.body).to.have.property('description', description);\n});",
               "err": {},
-              "uuid": "5cfc93f5-09b2-403b-9434-a794975ffdbf",
-              "parentUUID": "2aa8c6ef-a1d4-457e-acda-7deeb0bd498f",
+              "uuid": "7ea3e490-f33a-4856-b1cb-217b3c21b174",
+              "parentUUID": "f63a7fe9-f8c5-4db7-bfcd-e842e7de420d",
               "isHook": false,
               "skipped": false
             },
@@ -114,7 +114,7 @@
               "title": "Delete Space",
               "fullTitle": "Location Spaces API Test Delete Space",
               "timedOut": null,
-              "duration": 505,
+              "duration": 871,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -123,25 +123,25 @@
               "context": null,
               "code": "var title = \"Anjali Modified First Space\";\nvar description = \"Anjali First Space as test data\";\ncy.request({\n  method: 'DELETE',\n  url: '/hub/spaces/' + createdSpaceId,\n  auth: {\n    'bearer': Cypress.config('token')\n  }\n}).then(function (spaceResponse) {\n  expect(spaceResponse.status).to.eq(204);\n  createdSpaceId = 0;\n});",
               "err": {},
-              "uuid": "0f055698-b130-49a0-a850-eab1baf2c153",
-              "parentUUID": "2aa8c6ef-a1d4-457e-acda-7deeb0bd498f",
+              "uuid": "cfa3f3d1-2571-44ce-a12d-d6d68038d8c6",
+              "parentUUID": "f63a7fe9-f8c5-4db7-bfcd-e842e7de420d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "97cd6b09-b0eb-453f-bb44-5e1c72785fb6",
-            "b97a0b46-cc79-40c3-af23-1a824cd5e130",
-            "5cfc93f5-09b2-403b-9434-a794975ffdbf",
-            "0f055698-b130-49a0-a850-eab1baf2c153"
+            "4eccd396-751b-4b0e-84ed-72d10c7eb8ae",
+            "13587ffd-fece-4da4-b7e5-06f9229dea03",
+            "7ea3e490-f33a-4856-b1cb-217b3c21b174",
+            "cfa3f3d1-2571-44ce-a12d-d6d68038d8c6"
           ],
           "failures": [
-            "0ded6255-6023-4f94-afff-2c077d5d0ea8"
+            "15124960-7269-43bf-aee5-4f3576fa97dd"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 7521,
+          "duration": 7082,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -180,8 +180,7 @@
         "overwrite": false,
         "charts": true,
         "html": false,
-        "json": true,
-        "autoOpen": true
+        "json": true
       },
       "version": "6.0.1"
     }

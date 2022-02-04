@@ -27,7 +27,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 3815000000
+              "duration": 2369000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "User click on \"My Account\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 455000000
+              "duration": 288000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "User click on \"Register\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 2046000000
+              "duration": 1563000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "User should see \"Register Account\" page title",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 27000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "User fill details for RegisterAccount as \"NewUserWithSamePassword\"",
             "result": {
               "status": "passed",
-              "duration": 4986000000
+              "duration": 2665000000
             }
           },
           {
@@ -77,7 +77,7 @@
             "name": "User click on Continue button",
             "result": {
               "status": "passed",
-              "duration": 1778000000
+              "duration": 1514000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "User should see error message \"You must agree to the Privacy Policy\"",
             "result": {
               "status": "passed",
-              "duration": 138000000
+              "duration": 64000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "User Click on privacy policy checkbox",
             "result": {
               "status": "passed",
-              "duration": 366000000
+              "duration": 164000000
             }
           },
           {
@@ -107,7 +107,7 @@
             "name": "User click on Continue button",
             "result": {
               "status": "passed",
-              "duration": 3182000000
+              "duration": 2488000000
             }
           },
           {
@@ -117,7 +117,7 @@
             "name": "User should see success message \"Your Account Has Been Created\" on Home Page",
             "result": {
               "status": "passed",
-              "duration": 58000000
+              "duration": 41000000
             }
           },
           {
@@ -127,7 +127,7 @@
             "name": "User click on \"My Account\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 340000000
+              "duration": 173000000
             }
           },
           {
@@ -137,7 +137,7 @@
             "name": "User should see \"Logout\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 50000000
             }
           },
           {
@@ -147,7 +147,7 @@
             "name": "User click on \"Logout\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 2619000000
+              "duration": 2370000000
             }
           }
         ]
@@ -172,7 +172,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 1888000000
+              "duration": 1582000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "User click on \"My Account\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 294000000
+              "duration": 148000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "User click on \"Login\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 2102000000
+              "duration": 1326000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "User login as \"ValidUserAndInvalidPassword\"",
             "result": {
               "status": "passed",
-              "duration": 2287000000
+              "duration": 957000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "User click on Login button",
             "result": {
               "status": "passed",
-              "duration": 2233000000
+              "duration": 1497000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "User should see error message \"No match for E-Mail Address and/or Password\"",
             "result": {
               "status": "passed",
-              "duration": 237000000
+              "duration": 31000000
             }
           }
         ]
@@ -247,7 +247,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 2688000000
+              "duration": 1588000000
             }
           },
           {
@@ -257,7 +257,7 @@
             "name": "User click on \"My Account\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 341000000
+              "duration": 130000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "User click on \"Login\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 1966000000
+              "duration": 1360000000
             }
           },
           {
@@ -277,7 +277,7 @@
             "name": "User login as \"InvalidUserAndValidPassword\"",
             "result": {
               "status": "passed",
-              "duration": 1654000000
+              "duration": 902000000
             }
           },
           {
@@ -287,7 +287,7 @@
             "name": "User click on Login button",
             "result": {
               "status": "passed",
-              "duration": 1884000000
+              "duration": 1547000000
             }
           },
           {
@@ -297,7 +297,7 @@
             "name": "User should see error message \"No match for E-Mail Address and/or Password\"",
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 39000000
             }
           }
         ]
@@ -322,7 +322,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 4233000000
+              "duration": 2513000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "User click on \"My Account\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 266000000
+              "duration": 111000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "User click on \"Login\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 1989000000
+              "duration": 1409000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "User login as \"InvalidUserAndInvalidPassword\"",
             "result": {
               "status": "passed",
-              "duration": 2026000000
+              "duration": 914000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "User click on Login button",
             "result": {
               "status": "passed",
-              "duration": 2310000000
+              "duration": 1562000000
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "User should see error message \"No match for E-Mail Address and/or Password\"",
             "result": {
               "status": "passed",
-              "duration": 226000000
+              "duration": 88000000
             }
           }
         ]
@@ -397,7 +397,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 2730000000
+              "duration": 1609000000
             }
           },
           {
@@ -407,7 +407,7 @@
             "name": "User click on \"My Account\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 457000000
+              "duration": 171000000
             }
           },
           {
@@ -417,7 +417,7 @@
             "name": "User click on \"Login\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 2232000000
+              "duration": 1426000000
             }
           },
           {
@@ -427,7 +427,7 @@
             "name": "User login as \"ValidUser\"",
             "result": {
               "status": "passed",
-              "duration": 1678000000
+              "duration": 866000000
             }
           },
           {
@@ -437,7 +437,7 @@
             "name": "User click on Login button",
             "result": {
               "status": "passed",
-              "duration": 3935000000
+              "duration": 2593000000
             }
           },
           {
@@ -447,7 +447,7 @@
             "name": "User should see Product Bar",
             "result": {
               "status": "passed",
-              "duration": 173000000
+              "duration": 14000000
             }
           },
           {
@@ -457,7 +457,7 @@
             "name": "User click on \"My Account\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 1008000000
+              "duration": 128000000
             }
           },
           {
@@ -467,7 +467,7 @@
             "name": "User should see \"Logout\" menu option from top bar",
             "result": {
               "status": "passed",
-              "duration": 221000000
+              "duration": 34000000
             }
           },
           {
@@ -477,7 +477,7 @@
             "name": "User should see Product Bar",
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 16000000
             }
           },
           {
@@ -487,7 +487,7 @@
             "name": "User click on home button from navigation breadcrumb",
             "result": {
               "status": "passed",
-              "duration": 2366000000
+              "duration": 1455000000
             }
           },
           {
@@ -497,7 +497,7 @@
             "name": "User should see Home Page",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 21000000
             }
           }
         ]

@@ -27,7 +27,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 3106000000
+              "duration": 3112000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 1504000000
+              "duration": 1444000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "User enter \"Apple\" in searchbox and click on search icon",
             "result": {
               "status": "passed",
-              "duration": 2445000000
+              "duration": 1895000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "User should see products with name contains \"Apple\"",
             "result": {
               "status": "passed",
-              "duration": 113000000
+              "duration": 21000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 3286000000
+              "duration": 1448000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "User enter \"Samsung\" in searchbox and click on search icon",
             "result": {
               "status": "passed",
-              "duration": 2442000000
+              "duration": 1965000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "User change search category to \"Tablets\"",
             "result": {
               "status": "passed",
-              "duration": 2267000000
+              "duration": 2171000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "User click on criteria search button",
             "result": {
               "status": "passed",
-              "duration": 1790000000
+              "duration": 1602000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "User should see products with name contains \"Samsung\"",
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 28000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "User enter \"Logitech\" in criteria search input box",
             "result": {
               "status": "passed",
-              "duration": 724000000
+              "duration": 406000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "User change search category to \"Monitors\"",
             "result": {
               "status": "passed",
-              "duration": 2322000000
+              "duration": 2179000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "User click on criteria search button",
             "result": {
               "status": "passed",
-              "duration": 1651000000
+              "duration": 1360000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "User should see \"There is no product that matches the search criteria\" as product result message",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 24000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "User enter \"Samsung\" in criteria search input box",
             "result": {
               "status": "passed",
-              "duration": 723000000
+              "duration": 404000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "User click on criteria search button",
             "result": {
               "status": "passed",
-              "duration": 1674000000
+              "duration": 1347000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "User should see products with name contains \"Samsung\"",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 27000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "User should see \"monitor\" in caption details",
             "result": {
               "status": "passed",
-              "duration": 98000000
+              "duration": 27000000
             }
           }
         ]
@@ -227,7 +227,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 1967000000
+              "duration": 1466000000
             }
           },
           {
@@ -237,7 +237,7 @@
             "name": "User enter \"Camera\" in searchbox and click on search icon",
             "result": {
               "status": "passed",
-              "duration": 2278000000
+              "duration": 1671000000
             }
           },
           {
@@ -247,7 +247,7 @@
             "name": "User click select search in product descriptions checkbox",
             "result": {
               "status": "passed",
-              "duration": 212000000
+              "duration": 114000000
             }
           },
           {
@@ -257,7 +257,7 @@
             "name": "User click on criteria search button",
             "result": {
               "status": "passed",
-              "duration": 2183000000
+              "duration": 2689000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "User should see products",
             "result": {
               "status": "passed",
-              "duration": 105000000
+              "duration": 50000000
             }
           },
           {
@@ -277,7 +277,7 @@
             "name": "User select \"1\" product",
             "result": {
               "status": "passed",
-              "duration": 4523000000
+              "duration": 3229000000
             }
           },
           {
@@ -287,7 +287,7 @@
             "name": "User should see \"Camera\" in description",
             "result": {
               "status": "passed",
-              "duration": 58000000
+              "duration": 19000000
             }
           },
           {
@@ -297,7 +297,7 @@
             "name": "User click on home button from navigation breadcrumb",
             "result": {
               "status": "passed",
-              "duration": 2175000000
+              "duration": 1492000000
             }
           },
           {
@@ -307,7 +307,7 @@
             "name": "User should see Home Page",
             "result": {
               "status": "passed",
-              "duration": 119000000
+              "duration": 28000000
             }
           }
         ]
@@ -332,7 +332,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 2133000000
+              "duration": 1526000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "User click on \"Monitors\" option from \"Components\" menu",
             "result": {
               "status": "passed",
-              "duration": 1869000000
+              "duration": 2108000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "User should see \"Display|Monitor\" in caption details",
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 21000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "User should see left side panel highlighted with \"Monitors\"",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 19000000
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "User should see total listed products count and product count from page number section are same",
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 43000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "User should see navigation hierarchy \"Home, Components, Monitors\" in breadcrumb",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 24000000
             }
           },
           {
@@ -392,7 +392,7 @@
             "name": "User click on home button from navigation breadcrumb",
             "result": {
               "status": "passed",
-              "duration": 2185000000
+              "duration": 1581000000
             }
           },
           {
@@ -402,7 +402,7 @@
             "name": "User should see Home Page",
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 26000000
             }
           }
         ]

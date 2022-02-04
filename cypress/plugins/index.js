@@ -18,6 +18,13 @@ function loadConfig(filename) {
 module.exports = (on, config) => {
 
     on("file:preprocessor", cucumber());
+    on('task', {
+        log(message) {
+            console.log(message)
+            return null
+        },
+
+    })
     return loadConfig(config.configFile)
 }
 

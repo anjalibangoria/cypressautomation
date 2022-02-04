@@ -27,7 +27,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 5043000000
+              "duration": 3170000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "User click on \"Shopping Cart\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 1868000000
+              "duration": 1502000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "User enter \"iMac\" in searchbox and click on search icon",
             "result": {
               "status": "passed",
-              "duration": 3057000000
+              "duration": 2047000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "User should see products with name contains \"iMac\"",
             "result": {
               "status": "passed",
-              "duration": 112000000
+              "duration": 32000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "User click on add to cart button of \"1\" product from search page",
             "result": {
               "status": "passed",
-              "duration": 261000000
+              "duration": 203000000
             }
           },
           {
@@ -77,7 +77,7 @@
             "name": "User should see success message \"You have added\" on search page",
             "result": {
               "status": "passed",
-              "duration": 5154000000
+              "duration": 5072000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "User should see cart with \"1\" items at top of search page",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 32000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "User click on \"Shopping Cart\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 2917000000
+              "duration": 1744000000
             }
           },
           {
@@ -107,7 +107,7 @@
             "name": "User should see \"1\" items in cart",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 26000000
             }
           },
           {
@@ -117,7 +117,7 @@
             "name": "User enter \"Tab\" in searchbox and click on search icon",
             "result": {
               "status": "passed",
-              "duration": 4073000000
+              "duration": 2284000000
             }
           },
           {
@@ -127,7 +127,7 @@
             "name": "User should see products with name contains \"Tab\"",
             "result": {
               "status": "passed",
-              "duration": 328000000
+              "duration": 41000000
             }
           },
           {
@@ -137,7 +137,7 @@
             "name": "User click on add to cart button of \"1\" product from search page",
             "result": {
               "status": "passed",
-              "duration": 711000000
+              "duration": 169000000
             }
           },
           {
@@ -147,7 +147,7 @@
             "name": "User should see success message \"You have added\" on search page",
             "result": {
               "status": "passed",
-              "duration": 5328000000
+              "duration": 5075000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "User should see cart with \"2\" items at top of search page",
             "result": {
               "status": "passed",
-              "duration": 125000000
+              "duration": 27000000
             }
           },
           {
@@ -167,7 +167,7 @@
             "name": "User click on \"Shopping Cart\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 2908000000
+              "duration": 1774000000
             }
           },
           {
@@ -177,7 +177,7 @@
             "name": "User should see \"2\" items in cart",
             "result": {
               "status": "passed",
-              "duration": 189000000
+              "duration": 31000000
             }
           }
         ]
@@ -202,7 +202,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 2369000000
+              "duration": 1845000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "User click on \"Shopping Cart\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 1740000000
+              "duration": 1182000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "User enter \"iMac\" in searchbox and click on search icon",
             "result": {
               "status": "passed",
-              "duration": 3038000000
+              "duration": 2021000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "User click on add to cart button of \"1\" product from search page",
             "result": {
               "status": "passed",
-              "duration": 374000000
+              "duration": 129000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "User click on \"Shopping Cart\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 2486000000
+              "duration": 1681000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "User should see \"1\" items in cart",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 24000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "User should see \"iMac\" with \"1\" quantity on cart page",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: $val.should is not a function\n    at Context.eval (https://demo.opencart.com/__cypress/tests?p=cypress\\test\\uitest\\feature\\shoppingcart.feature:1332:10)"
+              "error_message": "Error: Invalid Chai property: withErrorMessage\n    at Object.proxyGetter [as get] (https://demo.opencart.com/__cypress/runner/cypress_runner.js:104540:17)\n    at getRet (https://demo.opencart.com/__cypress/runner/cypress_runner.js:156039:20)\n    at tryCatcher (https://demo.opencart.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Function.Promise.attempt.Promise.try (https://demo.opencart.com/__cypress/runner/cypress_runner.js:10470:29)\n    at Context.thenFn (https://demo.opencart.com/__cypress/runner/cypress_runner.js:156057:63)\n    at Context.then (https://demo.opencart.com/__cypress/runner/cypress_runner.js:156509:21)\n    at Context.<anonymous> (https://demo.opencart.com/__cypress/runner/cypress_runner.js:172859:19)\nFrom Your Spec Code:\n    at Context.eval (https://demo.opencart.com/__cypress/tests?p=cypress\\test\\uitest\\feature\\shoppingcart.feature:1330:5)"
             }
           },
           {
@@ -291,18 +291,36 @@
             "result": {
               "status": "skipped"
             }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "User edit quantity of \"iMac\" to \"two\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "User should see \"iMac\" with \"2\" quantity on cart page",
+            "result": {
+              "status": "skipped"
+            }
           }
         ]
       },
       {
         "id": "shopping-cart;verify-remove-from-cart-as-guest-user",
         "keyword": "Scenario",
-        "line": 39,
+        "line": 42,
         "name": "Verify remove from cart as guest user",
         "tags": [
           {
             "name": "@regression",
-            "line": 38
+            "line": 41
           }
         ],
         "type": "scenario",
@@ -314,7 +332,7 @@
             "name": "User navigate to homepage",
             "result": {
               "status": "passed",
-              "duration": 2261000000
+              "duration": 1669000000
             }
           },
           {
@@ -324,73 +342,73 @@
             "name": "User click on \"Shopping Cart\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 1855000000
+              "duration": 1201000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 40,
+            "line": 43,
             "name": "User enter \"Tab\" in searchbox and click on search icon",
             "result": {
               "status": "passed",
-              "duration": 2512000000
+              "duration": 1917000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 41,
+            "line": 44,
             "name": "User click on add to cart button of \"1\" product from search page",
             "result": {
               "status": "passed",
-              "duration": 341000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 42,
-            "name": "User click on \"Shopping Cart\" menu from topbar",
-            "result": {
-              "status": "passed",
-              "duration": 2387000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "User should see \"1\" items in cart",
-            "result": {
-              "status": "passed",
-              "duration": 113000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 44,
-            "name": "User should see total of \"1\" product",
-            "result": {
-              "status": "passed",
-              "duration": 140000000
+              "duration": 208000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 45,
-            "name": "User remove product \"Tab\" from cart",
+            "name": "User click on \"Shopping Cart\" menu from topbar",
             "result": {
               "status": "passed",
-              "duration": 5730000000
+              "duration": 1849000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 46,
+            "name": "User should see \"1\" items in cart",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "User should see total of \"1\" product",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "User remove product \"Tab\" from cart",
+            "result": {
+              "status": "passed",
+              "duration": 5256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
             "name": "User should see cart is empty",
             "result": {
               "status": "passed",

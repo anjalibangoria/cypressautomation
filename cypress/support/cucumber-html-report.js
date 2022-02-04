@@ -2,6 +2,8 @@ const report = require("../../node_modules/multiple-cucumber-html-reporter");
 report.generate({
     jsonDir: "cypress/reports/UIReports/cucumber-json", 
     reportPath: "cypress/reports/UIReports/cucumber-html-report",
+    reportName: "UI Automation Report",
+    pageTitle: "UI Automation Report",
     reportSuiteAsScenarios: true,
     scenarioTimestamp: true,
     launchReport: true,

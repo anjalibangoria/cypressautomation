@@ -11,7 +11,7 @@
 
 require('cypress-xpath')
 
-// Cypress.on("test:after:run", (test, runnable) => {
-//    
-// });
+Cypress.on("before:run", (details) => {
+  //you can add here before 
+});
 
