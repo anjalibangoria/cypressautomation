@@ -1,4 +1,4 @@
-# cypres sautomation
+# cypress automation
 
 Cypress is a next generation api and front end testing tool built for the modern web. This is a sample project which you can use to start your E2E testing with Cypress.
 remotes/origin_github/main
@@ -17,6 +17,9 @@ Usage
 To run UI Test which is under cypress/test/uitest.
 		
 	npm run ui-test
+	
+	For Headless Mode, use below command.
+	npm run ui-test:headless
 
 To run API Test which is under cypress/test/apitest.		
 		
