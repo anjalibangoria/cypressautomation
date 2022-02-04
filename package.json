@@ -13,7 +13,7 @@
         "api-test": "npm run deleteAPIReports & cypress run --config-file cypress/config/apiconfig.json & npm run mergeReport & npm run generateReport",
         "ui-test": "npm run deleteUIReports & cypress run --config-file cypress/config/uiconfig.json --browser chrome --headed & node cypress/support/cucumber-html-report.js",
         "ui-test:headless": "npm run deleteUIReports & cypress run --config-file cypress/config/uiconfig.json --browser chrome --headless & node cypress/support/cucumber-html-report.js",
-        "ui-test:withTags": "npm run deleteUIReports & npx cypress-tags run -e TAGS=\"not @checkout and (@regression)\" --browser chrome --env automationType=ui & node cypress/support/cucumber-html-report.js"
+        "ui-test:withTags": "npm run deleteUIReports & npx cypress-tags run -e TAGS=\"@checkout\" --browser chrome --headed --env automationType=ui & node cypress/support/cucumber-html-report.js"
     },
     "author": "Anjali Dalasaniya",
     "license": "ISC",

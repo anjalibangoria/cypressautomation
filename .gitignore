@@ -1,1 +1,4 @@
 /node_modules
+/cypress/Reports
+/cypress/screenshots
+/cypress/Videos
