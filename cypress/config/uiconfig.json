@@ -4,9 +4,9 @@
   "watchForFileChanges": false,
   "defaultCommandTimeout": 5000,
   "maxWaitTimeout": 5000,
-  "testFiles": [
-    "**/*.{feature, features}"
-  ],
+  "testFiles": 
+    "**/*.{feature,features}"
+  ,
   "integrationFolder": "cypress/test/uitest",
   "video": true,
   "videosFolder": "cypress/Videos/UITestVideos/"

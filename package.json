@@ -13,7 +13,7 @@
         "api-test": "npm run deleteAPIReports & cypress run --config-file cypress/config/apiconfig.json & npm run mergeReport & npm run generateReport",
         "ui-test": "npm run deleteUIReports & cypress run --config-file cypress/config/uiconfig.json --browser chrome --headed & node cypress/support/cucumber-html-report.js",
         "ui-test:headless": "npm run deleteUIReports & cypress run --config-file cypress/config/uiconfig.json --browser chrome --headless & node cypress/support/cucumber-html-report.js",
-        "runUsingTags": "cypress-tags run -e TAGS='not @foo and (@bar or @zap)'"
+        "ui-test:withTags": "npm run deleteUIReports & npx cypress-tags run -e TAGS=\"not @checkout and (@regression)\" --browser chrome --env automationType=ui & node cypress/support/cucumber-html-report.js"
     },
     "author": "Anjali Dalasaniya",
     "license": "ISC",
@@ -35,6 +35,7 @@
         }
     },
     "devDependencies": {
+        "cypress-tags": "^0.3.0",
         "cypress-xpath": "^1.6.2",
         "deepmerge": "^4.2.2",
         "del-cli": "^4.0.1",
@@ -42,6 +43,7 @@
         "mochawesome-merge": "^4.2.1",
         "mochawesome-report-generator": "^6.0.1",
         "multiple-cucumber-html-reporter": "^1.18.3",
-        "random-email": "^1.0.3"
+        "random-email": "^1.0.3",
+        "typescript": "^4.5.5"
     }
 }

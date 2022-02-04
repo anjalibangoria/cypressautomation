@@ -1,4 +1,5 @@
 {
+  
     "baseUrl": "https://demo.opencart.com/",
     "chromeWebSecurity": false,
     "watchForFileChanges": false,
@@ -6,10 +7,6 @@
     "maxWaitTimeout": 5000,
     "screenshotOnRunFailure": true,
     "integrationFolder": "cypress/test/uitest",
-    "fixturesFolder": "cypress/testdata",
-    "testFiles": [
-        "**/*.{feature, features}"
-      ]
-
+    "fixturesFolder": "cypress/fixtures"
 
 }

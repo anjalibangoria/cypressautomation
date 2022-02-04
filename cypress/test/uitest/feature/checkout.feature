@@ -1,3 +1,4 @@
+@checkout
 Feature: Checkout
 
     ####This scenario will wrok for find product, add to cart, checkout product as guest and comfirm order###

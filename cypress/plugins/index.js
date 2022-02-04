@@ -2,6 +2,7 @@ const deepmerge = require('deepmerge')
 const path = require('path')
 const cucumber = require('cypress-cucumber-preprocessor').default
 
+
 function loadConfig(filename) {
     const configJson = require(filename)
     if (configJson.extends) {
@@ -15,6 +16,14 @@ function loadConfig(filename) {
     }
 }
 
+function addConfigurationBasedOnType(type) {
+    console.log(type != undefined && type.toLowerCase() == "ui");
+    if (type != undefined && type.toLowerCase() == "ui") {
+        loadConfig("../../cypress/config/uiconfig.json")
+    }
+
+}
+
 module.exports = (on, config) => {
 
     on("file:preprocessor", cucumber());
@@ -23,9 +32,15 @@ module.exports = (on, config) => {
             console.log(message)
             return null
         },
-
-    })
-    return loadConfig(config.configFile)
+    });
+    // add uiconfig.json because cypress-tags doesnt allow to add custom config file
+    // so ui-config will be added when 
+    if (config.env.automationType != undefined) {
+        addConfigurationBasedOnType(config.env.automationType)
+    } else {
+        loadConfig(config.configFile);
+    }
+    return config;
 }
 
 

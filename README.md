@@ -37,3 +37,7 @@ There are different folder for different purpose here.
 5. **support**     :- This folder will be used to set global configuration and great place to put behavior that modifies Cypress under support/index.js
 6. **test**        :- All test will be taken care from this location. Use apitest folder for adding api test cases in TDD Way, uitest folder for adding ui test cases in BDD way.
 7. **Videos**      :- All feature execution vidoes gets generated here if Vidoes flag set to true in config/apiconfig.json or config/uiconfig.json. 
+
+
+For now, runUsingTags doesnt work. There is open issue with cucumber-preproccessor.
+https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/issues/493

@@ -10,6 +10,7 @@
 // 'supportFile' configuration option.
 
 require('cypress-xpath')
+/// <reference types='cypress-tags' />
 
 Cypress.on("before:run", (details) => {
   //you can add here before 
