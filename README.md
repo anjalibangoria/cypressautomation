@@ -17,6 +17,9 @@ Usage
 To run UI Test which is under cypress/test/uitest.
 		
 	npm run ui-test
+	
+	For Headless Mode, use below command.
+	npm run ui-test:headless
 
 To run API Test which is under cypress/test/apitest.		
 		
