@@ -7,7 +7,7 @@ Installation
 ------------
 1. Install node from https://nodejs.org/en/download/.
 
-2. Use `npm` package manager
+2. Use `npm` package manager and install required dependency.
 
 		npm install
 
