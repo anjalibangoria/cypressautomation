@@ -35,8 +35,8 @@ Project Information
 There are different folder for different purpose here.
 1. **config**      :- This will be used to set configuration for UI & API test individually.
 
-			apiconfig.json - all required configurations for api automation are added under this file. 
-			uiconfig.json  - all required configurations for ui automation are added under this file.
+		apiconfig.json - all required configurations for api automation are added under this file. 
+		uiconfig.json  - all required configurations for ui automation are added under this file.
 3. **fixtures**    :- This will be used to add required test data files.
 4. **Reports**     :- After execution of UI or API test, report will get generate under Reports -> APIReports or Report -> UIReports respectively. There will be one file with ExecutionReport.html to see result in HTML format. It generates from result json data.
 4. **screenshots** :- All failure screenshots will get generated here.
